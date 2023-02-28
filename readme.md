@@ -10,4 +10,8 @@ Buon lavoro!
 
 
 
-//apro un arry contenente la lista della spesa
+//creo variabile lista ingredienti ed inserisco tutti gli item
+//creo variabile lista e mi prendo il id lista dal dom
+// a quel punto apro ciclo 
+// creo un elemento all'interno del dom 
+//appendo la lista al dom
