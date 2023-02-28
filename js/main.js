@@ -1,5 +1,7 @@
 'use strict'
 
+/* ----------------------------------------------------------------------------------------------------- */
+
 /* Ciclo for */
 
 /*arry */
@@ -19,27 +21,26 @@ for(let i = 0 ; i < listaIngredienti.length; i++){
 
 /* Ciclo for */
 
+
+/* ----------------------------------------------------------------------------------------------------- */
+
 /* Ciclo while */
 
-const listaIngredientiDue = ['cipolle','barbabietola' ,'cetrioli','patate' ]
+const listaIngredientiDue = ['cipolle','barbabietola' ,'cetrioli','patate','lamponi' ]
 
-const listaDue = document.getElementById('lista_02')
+const listaDue = document.getElementById('lista_02')   /* prendo elemento dal dom */
 
-let i = 0;
+let i = 0;  
 
 while( i < listaIngredientiDue.length ) { 
     console.log(listaIngredientiDue[i])
+    const itemDue = document.createElement('li'); /* creo elemento nel dom */
+    itemDue.append(listaIngredientiDue[i]); /* appendo la lista ingredienti all'item ovvero il li */
+    listaDue.append(itemDue); /* ora prendo la lista e gli appendo item ovvero la lista ingredienti */
     i++;
-    const itemDue = document.createElement('li');
-    itemDue.append(listaIngredientiDue[i]);
-    listaDue.append(itemDue);
 }
 
 /* Ciclo while */
 
-
-
-
-
-
+/* ----------------------------------------------------------------------------------------------------- */
 
